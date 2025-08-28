@@ -1,0 +1,13 @@
+{
+  "servers": {
+    "github": {
+        "command": "npx",
+        "args": ["@missionsquad/mcp-github"],
+        "env": {
+            "GITHUB_PERSONAL_ACCESS_TOKEN": "PAT_TOKEN"
+        },
+        "type": "stdio"
+    }
+  },
+  "inputs": []
+}
